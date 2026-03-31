@@ -1,0 +1,19 @@
+{
+  "name": "fake-orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "pg": "^8.0.0",
+    "mysql2": "^3.0.0",
+    "better-sqlite3": "^11.0.0 || ^12.0.0",
+    "ioredis": "^5.0.0",
+    "chalk": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "pg": { "optional": true },
+    "mysql2": { "optional": true },
+    "better-sqlite3": { "optional": true },
+    "ioredis": { "optional": true },
+    "chalk": { "optional": true }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "app-a",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "fake-orm": "workspace:*",
+    "pg": "^8.13.0"
+  }
+}
